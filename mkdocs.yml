@@ -1,8 +1,8 @@
-site_name: Tony Chang Docs
-site_description: Tony Chang's Docs Demo
+site_name: Japanese Learning Notes
+site_description: Japanese Learning Notes Wrote by Tony Chang.
 site_author: Tony Chang
 copyright: Copyright © 2012-2022 Tong Chang. All Right Reserved.
-site_url: https://example.com/
+site_url: http://jln.aptx4869.tv
 theme:
   name: material
   # language: zh
