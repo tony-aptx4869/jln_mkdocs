@@ -1,1 +1,107 @@
-site_name: My Docs
+site_name: Tony Chang Docs
+site_description: Tony Chang's Docs Demo
+site_author: Tony Chang
+copyright: Copyright © 2012-2022 Tong Chang. All Right Reserved.
+site_url: https://example.com/
+theme:
+  name: material
+  # language: zh
+  palette:
+    primary: blue
+repo_name: GitHub
+repo_url: https://github.com/tony-aptx4869/jln_mkdocs
+edit_uri: blob/main/docs/
+
+# Navigation
+nav:
+  # Default Language (zh, Simplified Chinese, 简体中文)
+  - home_navi_title: index.md
+  - about_nav_title: about.md
+  # zh-TW, Traditional Chinese(Taiwan, China), 正體中文
+  - home_navi_title: index.zh-TW.md
+  - about_nav_title: about.zh-TW.md
+  # English
+  - home_navi_title: index.en.md
+  - about_nav_title: about.en.md
+
+# mkdocs-static-i18n
+# plugins:
+#   - search
+#   - i18n:
+#       default_language: zh
+#       default_language_only: false
+#       languages:
+#         default:
+#           name: 简体中文
+#           build: true
+#           site_name: "Tony Chang 的文档库"
+#         zh:
+#           name: 简体中文
+#           build: true
+#           site_name: "Tony Chang 的文档库"
+#         zh_TW:
+#           name: "正體中文"
+#           build: true
+#           site_name: "Tony Chang 的檔案庫"
+#         en:
+#           name: English
+#           build: true
+#           site_name: "Tony Chang Docs"
+#       nav_translations:
+#         zh:
+#           home_navi_title: "首页"
+#           about_nav_title: "关于"
+#         zh_TW:
+#           home_navi_title: "首頁"
+#           about_nav_title: "關於"
+#         en:
+#           home_navi_title: "Home"
+#           about_nav_title: "About"
+
+# mkdocs-i18n
+plugins:
+  - search
+  - i18n:
+      languages:
+        zh: "简体中文"
+        zh-TW: "正體中文"
+        en: "English"
+      # default_language: 'en'
+      default_language: 'zh'
+      # no_translation:
+      #   zh: "此页面尚未翻译成简体中文版本。"
+      #   zh-TW: "該頁面尚未翻譯爲正體中文版本。"
+      #   en: "This page isn't translated to English."
+      translate_nav:
+        zh:
+          home_navi_title: "首页"
+          about_nav_title: "关于"
+        zh-TW:
+          home_navi_title: "首頁"
+          about_nav_title: "關於"
+        en:
+          home_navi_title: "Home"
+          about_nav_title: "About"
+
+# # Language Switcher
+# extra:
+#   alternate:
+#     - name: 简体中文
+#       link: /
+#       lang: zh
+#     - name: 正體中文
+#       link: /zh-TW/
+#       lang: zh-TW
+#     - name: English
+#       link: /
+#       lang: en
+
+# Language Switcher
+extra:
+  alternate:
+    - name: 简体中文
+      lang: zh
+    - name: 正體中文
+      lang: zh-TW
+    - name: English
+      lang: en
