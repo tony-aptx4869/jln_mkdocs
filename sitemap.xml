@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://example.com/</loc>
+         <loc>http://jln.aptx4869.tv/</loc>
          <lastmod>2022-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/about.en/</loc>
+         <loc>http://jln.aptx4869.tv/about.en/</loc>
          <lastmod>2022-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/about/</loc>
+         <loc>http://jln.aptx4869.tv/about/</loc>
          <lastmod>2022-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/about.zh-TW/</loc>
+         <loc>http://jln.aptx4869.tv/about.zh-TW/</loc>
          <lastmod>2022-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/index.en/</loc>
+         <loc>http://jln.aptx4869.tv/index.en/</loc>
          <lastmod>2022-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/index.zh-TW/</loc>
+         <loc>http://jln.aptx4869.tv/index.zh-TW/</loc>
          <lastmod>2022-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
