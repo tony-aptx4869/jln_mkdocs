@@ -1,5 +1,5 @@
-site_name: Japanese Learning Notes
-site_description: Japanese Learning Notes Wrote by Tony Chang.
+site_name: 日本語学习笔记 🇯🇵
+site_description: Tony Chang 的日本語学习笔记
 site_author: Tony Chang
 copyright: Copyright © 2012-2022 Tong Chang. All Right Reserved.
 site_url: http://jln.aptx4869.tv
@@ -9,7 +9,7 @@ theme:
   palette:
     primary: blue
 repo_name: GitHub
-repo_url: https://github.com/tony-aptx4869/jln_mkdocs
+repo_url: https://github.com/tony-aptx4869/jln_mkdocs_for_rtd
 edit_uri: blob/main/docs/
 
 # Navigation
@@ -23,40 +23,6 @@ nav:
   # English
   - home_navi_title: index.en.md
   - about_nav_title: about.en.md
-
-# mkdocs-static-i18n
-# plugins:
-#   - search
-#   - i18n:
-#       default_language: zh
-#       default_language_only: false
-#       languages:
-#         default:
-#           name: 简体中文
-#           build: true
-#           site_name: "Tony Chang 的文档库"
-#         zh:
-#           name: 简体中文
-#           build: true
-#           site_name: "Tony Chang 的文档库"
-#         zh_TW:
-#           name: "正體中文"
-#           build: true
-#           site_name: "Tony Chang 的檔案庫"
-#         en:
-#           name: English
-#           build: true
-#           site_name: "Tony Chang Docs"
-#       nav_translations:
-#         zh:
-#           home_navi_title: "首页"
-#           about_nav_title: "关于"
-#         zh_TW:
-#           home_navi_title: "首頁"
-#           about_nav_title: "關於"
-#         en:
-#           home_navi_title: "Home"
-#           about_nav_title: "About"
 
 # mkdocs-i18n
 plugins:
@@ -82,19 +48,6 @@ plugins:
         en:
           home_navi_title: "Home"
           about_nav_title: "About"
-
-# # Language Switcher
-# extra:
-#   alternate:
-#     - name: 简体中文
-#       link: /
-#       lang: zh
-#     - name: 正體中文
-#       link: /zh-TW/
-#       lang: zh-TW
-#     - name: English
-#       link: /
-#       lang: en
 
 # Language Switcher
 extra:
